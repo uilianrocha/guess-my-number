@@ -80,6 +80,7 @@ h1 {
   position: absolute;
   top: 2rem;
   left: 2rem;
+  border-radius: 10px;
 }
 
 .guess {
@@ -103,6 +104,7 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .btn:hover {

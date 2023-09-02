@@ -24,6 +24,7 @@ document.querySelector(".check").addEventListener("click", function () {
 
     document.querySelector("body").style.backgroundColor = "#60b347";
     document.querySelector(".number").style.width = "20rem";
+    document.querySelector(".again").style.backgroundColor = "greenyellow";
 
     if (score > highscore) {
       highscore = score;
@@ -52,4 +53,5 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".guess").value = "";
   document.querySelector("body").style.backgroundColor = "#222";
   document.querySelector(".number").style.width = "15rem";
+  document.querySelector(".again").style.backgroundColor = "#eee";
 });
